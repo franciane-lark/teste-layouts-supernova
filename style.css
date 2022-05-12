@@ -12,16 +12,22 @@ body{
     margin-top: 30px;
     margin-left: 1014px;
 }
+.fig-balao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .balao {
+    position: fixed;
     width: 857px;
     height: 183px;
-    margin-top: 134px;
-    margin-left: 292px;
+    top: 134px;
+    left: 292px;
 }
 .coletivo-codivas {
-    position: relative;
+    position: fixed;
     width: 253px;
     height: 74px;
-    margin-top: 162px;
-    margin-left: 594px;
+    top: 160px;
+    left: 600px;
 }
