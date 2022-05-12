@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFD8;
+}
+.fig-supernova {
+    width: 378px;
+    height: 86px;
+    margin-top: 30px;
+    margin-left: 1014px;
+}
+.balao {
+    width: 857px;
+    height: 183px;
+    margin-top: 134px;
+    margin-left: 292px;
+}
+.coletivo-codivas {
+    position: relative;
+    width: 253px;
+    height: 74px;
+    margin-top: 162px;
+    margin-left: 594px;
+}
