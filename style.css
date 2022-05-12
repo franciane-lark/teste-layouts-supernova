@@ -61,34 +61,10 @@ h6 {
     top: 160px;
     left: 600px;
 }
-.texto {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.texto-codivas1 {
     margin-top: 333px;
     margin-left: 81px;
-}
-.text-codivas1 {
-    position: relative;
-    width: 954px;
-    height: 38px;
-    font-size: 32px;
     font-weight: 900;
-    color: #696969;
-}
-.text-codivas2 {
-    position: relative;
-    width: 954px;
-    height: 38px;
     font-size: 32px;
-    font-weight: 900;
-    color: #C44421;
-}
-.text-codivas3 {
-    position: absolute;
-    width: 954px;
-    height: 38px;
-    font-size: 32px;
-    font-weight: 900;
     color: #696969;
 }
