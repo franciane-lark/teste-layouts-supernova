@@ -21,6 +21,13 @@ h6 {
     padding-left: 10px;
     color: #C44421;
 }
+.menu-on {
+    display: inline-block;
+    width: 115px;
+    height: 15px;
+    margin-top: 40px;
+    margin-left: -115px;
+}
 .sair {
     display: inline;
     width: 39px;
@@ -32,7 +39,7 @@ h6 {
     display: inline;
     width: 15px;
     height: 15px;
-    margin-top: 21px;
+    margin-top: -3px;
     margin-left: 10px;
 }
 .fig-supernova {
@@ -62,9 +69,113 @@ h6 {
     left: 600px;
 }
 .texto-codivas1 {
-    margin-top: 333px;
+    position: fixed;
+    margin-top: 250px;
     margin-left: 81px;
     font-weight: 900;
     font-size: 32px;
     color: #696969;
+}
+.palavra{
+    color:#C44421;
+}
+.texto-segunda {
+    position: fixed;
+    width: 434px;
+    height: 24px;
+    top: 420px;
+    left: 81px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #696969;
+}
+.btn-codivas {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -158px;
+}
+.btn-action {
+    width: 150px;
+    height: 50px;
+    margin: 400px -100px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-editar-noticia {
+    width: 150px;
+    height: 50px;
+    margin: 400px -100px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-editar-admin{
+    width: 150px;
+    height: 50px;
+    margin: 400px -100px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-baixar {
+    width: 150px;
+    height: 50px;
+    margin: 400px -100px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-pdf {
+    width: 150px;
+    height: 50px;
+    margin: 400px -100px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-compartilhar {
+    width: 150px;
+    height: 50px;
+    margin: 400px -100px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-positiva {
+    width: 150px;
+    height: 50px;
+    margin: 20px -100px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-audiencia {
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-alcance {
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-equivalencia {
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-cent {
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-mais {
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
+}
+.btn-menos {
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFD8;
+    border-color: #C44421;
 }
