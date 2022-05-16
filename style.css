@@ -91,8 +91,7 @@ h6 {
 }
 /*---------------------------*/
 .btn-codivas {
-    position: absolute;
-   
+    position: fixed;
 }
 /*---------------------------*/
 .btn-action {
@@ -148,32 +147,32 @@ h6 {
 .btn-positiva {
     width: 150px;
     height: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 500px;
+    margin-left: 80px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
 }
 .btn-audiencia {
     width: 150px;
     height: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 500px;
+    margin-left: 80px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
 }
 .btn-alcance {
     width: 150px;
     height: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 500px;
+    margin-left: 80px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
 }
 .btn-equivalencia {
     width: 150px;
     height: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 500px;
+    margin-left: 80px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
 }
@@ -181,24 +180,24 @@ h6 {
 .btn-cent {
     width: 150px;
     height: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 600px;
+    margin-left: 80px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
 }
 .btn-mais {
     width: 150px;
     height: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 600px;
+    margin-left: 80px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
 }
 .btn-menos {
     width: 150px;
     height: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 600px;
+    margin-left: 80px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
 }
