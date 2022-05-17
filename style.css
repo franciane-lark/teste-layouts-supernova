@@ -39,7 +39,7 @@ h6 {
     display: inline;
     width: 15px;
     height: 15px;
-    margin-top: -3px;
+    margin-top: 3px;
     margin-left: 10px;
 }
 .fig-supernova {
@@ -70,10 +70,10 @@ h6 {
 }
 .texto-codivas1 {
     position: fixed;
-    top: 350px;
+    top: 340px;
     left: 81px;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 41px;
     color: #696969;
 }
 .palavra{
@@ -89,115 +89,194 @@ h6 {
     font-size: 20px;
     color: #696969;
 }
-/*---------------------------*/
 .btn-codivas {
-    position: fixed;
+    display: flex;
 }
-/*---------------------------*/
 .btn-action {
     width: 150px;
     height: 50px;
     margin-top: 400px;
     margin-left: 80px;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
+    
 }
 .btn-editar-noticia {
     width: 150px;
     height: 50px;
     margin-top: 400px;
-    margin-left: 80px;
+    margin-left: 10px;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
 }
 .btn-editar-admin{
     width: 150px;
     height: 50px;
     margin-top: 400px;
-    margin-left: 80px;
+    margin-left: 10px;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
 }
 .btn-baixar {
     width: 150px;
     height: 50px;
     margin-top: 400px;
-    margin-left: 80px;
+    margin-left: 10px;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
 }
 .btn-pdf {
     width: 150px;
     height: 50px;
     margin-top: 400px;
-    margin-left: 80px;
+    margin-left: 10px;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
 }
 .btn-compartilhar {
     width: 150px;
     height: 50px;
     margin-top: 400px;
-    margin-left: 80px;
+    margin-left: 10px;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
 }
-
-/*---------------------------*/
 .btn-positiva {
     width: 150px;
     height: 50px;
-    margin-top: 500px;
+    margin-top: 50px;
     margin-left: 80px;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
 }
 .btn-audiencia {
     width: 150px;
     height: 50px;
-    margin-top: 500px;
-    margin-left: 80px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
 }
 .btn-alcance {
     width: 150px;
     height: 50px;
-    margin-top: 500px;
-    margin-left: 80px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
 }
 .btn-equivalencia {
-    width: 150px;
+    width: 470px;
     height: 50px;
-    margin-top: 500px;
-    margin-left: 80px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
 }
-/*---------------------------*/
 .btn-cent {
     width: 150px;
     height: 50px;
-    margin-top: 600px;
-    margin-left: 80px;
+    margin-top: 3em;
+    margin-left: 25em;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
+}
+.texto-codivas2 {
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 2.5em;
+    margin-left: 0.5em;
+}
+.midia {
+   width: 274px;
+   height: 24px;
+   font-family: 'Arial, Helvetica, sans-serif';
+   font-size: 20px;
+   font-weight: 400;
+   margin-top: 2.5em ;
+   margin-left: 4em;
+   color: #C44421; 
 }
 .btn-mais {
-    width: 150px;
-    height: 50px;
-    margin-top: 600px;
-    margin-left: 80px;
+    width: 30px;
+    height: 30px;
+    margin-top: 3.8em;
+    margin-left: 1.5em;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
 }
 .btn-menos {
-    width: 150px;
-    height: 50px;
-    margin-top: 600px;
-    margin-left: 80px;
+    width: 30px;
+    height: 30px;
+    margin-top: 3.8em;
+    margin-left: 1.5em;
+    border-radius: 3px;
     background-color: #FFFFD8;
     border: 1px solid #C44421;
+    color: #C44421;
+}
+.jornal {
+    display: flex;
+    justify-content: right;
+    margin-top: -20rem;
+    margin-right: 30rem;
+}
+.jornal img {
+    width: 269px;
+    height: 409px;
+}
+.caixa1 {
+    display: flex;
+    justify-content: left;
+    margin-top: -3rem;
+    margin-left: 5rem;
+}
+.texto-codivas3 {
+    width: 950px;
+    height: 120px;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: #696969;
+}
+.caixa2 {
+    display: flex;
+    justify-content: left;
+    margin-top: -1rem;
+    margin-left: 5rem;
+}
+.texto-codivas4 {
+    width: 950px;
+    height: 120px;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: #696969;
 }
