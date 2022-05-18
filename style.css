@@ -7,47 +7,47 @@ body {
     background-color: #FFFFD8;
 }
 h6 {
-    display: inline;
+    display: flex;
     width: 268px;
     height: 22px;
-    margin-top: 21px;
-    margin-left: 41px;
+    margin-top: 1rem;
+    margin-left: 5rem;
 }
 .name {
-    display: inline;
+    display: flex;
     width: 268px;
     height: 22px;
-    padding-top: 21px;
-    padding-left: 10px;
+    margin-top: -1.5rem;
+    padding-left: 10rem;
     color: #C44421;
 }
 .menu-on {
-    position: relative;
+    display: flex;
     width: 115px;
     height: 15px;
-    top: 20px;
-    left: -115px;
+    margin-top: -0.3rem;
+    margin-left: 9.5rem;
 }
 .sair {
-    display: inline;
+    display: flex;
     width: 39px;
     height: 22px;
-    margin-top: 21px;
-    margin-left: -100px;
+    margin-top: -1.9rem;
+    margin-left: 17rem;
 }
 .button-red {
-    display: inline;
+    display: flex;
     width: 15px;
     height: 15px;
-    margin-top: 3px;
-    margin-left: 10px;
+    margin-top: -1.3rem;
+    margin-left: 19rem;
 }
 .fig-supernova {
-    position: fixed;
+    display: flex;
     width: 378px;
     height: 86px;
-    padding-top: 0px auto;
-    padding-left: 1014px;
+    margin-top: -1.5rem;
+    margin-left: 60rem;
 }
 .fig-balao {
     display: flex;
@@ -55,36 +55,36 @@ h6 {
     align-items: center;
 }
 .balao {
-    position: fixed;
+    display: flex;
     width: 857px;
     height: 183px;
-    top: 134px;
-    left: 292px;
+    margin-top: 5rem;
+    margin-left: 20rem;
 }
 .coletivo-codivas {
-    position: fixed;
+    display: flex;
     width: 253px;
     height: 74px;
-    top: 160px;
-    left: 600px;
+    margin-top: 2rem;
+    margin-left: -80rem;
 }
 .texto-codivas1 {
-    position: fixed;
-    top: 340px;
-    left: 81px;
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 5rem;
     font-weight: 900;
-    font-size: 41px;
+    font-size: 43px;
     color: #696969;
 }
 .palavra{
     color:#C44421;
 }
 .texto-segunda {
-    position: fixed;
+    display: flex;
     width: 434px;
     height: 24px;
-    top: 390px;
-    left: 81px;
+    margin-top: 20px;
+    margin-left: 81px;
     font-weight: 400;
     font-size: 20px;
     color: #696969;
@@ -95,7 +95,7 @@ h6 {
 .btn-action {
     width: 150px;
     height: 50px;
-    margin-top: 400px;
+    margin-top: 50px;
     margin-left: 80px;
     border-radius: 3px;
     background-color: #FFFFD8;
@@ -106,7 +106,7 @@ h6 {
 .btn-editar-noticia {
     width: 150px;
     height: 50px;
-    margin-top: 400px;
+    margin-top: 50px;
     margin-left: 10px;
     border-radius: 3px;
     background-color: #FFFFD8;
@@ -116,7 +116,7 @@ h6 {
 .btn-editar-admin{
     width: 150px;
     height: 50px;
-    margin-top: 400px;
+    margin-top: 50px;
     margin-left: 10px;
     border-radius: 3px;
     background-color: #FFFFD8;
@@ -126,7 +126,7 @@ h6 {
 .btn-baixar {
     width: 150px;
     height: 50px;
-    margin-top: 400px;
+    margin-top: 50px;
     margin-left: 10px;
     border-radius: 3px;
     background-color: #FFFFD8;
@@ -136,7 +136,7 @@ h6 {
 .btn-pdf {
     width: 150px;
     height: 50px;
-    margin-top: 400px;
+    margin-top: 50px;
     margin-left: 10px;
     border-radius: 3px;
     background-color: #FFFFD8;
@@ -146,7 +146,7 @@ h6 {
 .btn-compartilhar {
     width: 150px;
     height: 50px;
-    margin-top: 400px;
+    margin-top: 50px;
     margin-left: 10px;
     border-radius: 3px;
     background-color: #FFFFD8;
@@ -242,9 +242,9 @@ h6 {
 }
 .jornal {
     display: flex;
-    justify-content: right;
-    margin-top: -20rem;
-    margin-right: 30rem;
+    justify-content: left;
+    margin-top: -23rem;
+    margin-left: 67rem;
 }
 .jornal img {
     width: 269px;
@@ -253,7 +253,7 @@ h6 {
 .caixa1 {
     display: flex;
     justify-content: left;
-    margin-top: -3rem;
+    margin-top: -1rem;
     margin-left: 5rem;
 }
 .texto-codivas3 {
@@ -279,4 +279,43 @@ h6 {
     font-size: 20px;
     text-align: justify;
     color: #696969;
+}
+.caixa3 {
+    display: flex;
+    justify-content: left;
+    margin-top: -1rem;
+    margin-left: 5rem;
+}
+.texto-codivas5 {
+    width: 950px;
+    height: 120px;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: #696969;
+}
+.btn-status {
+    display: flex;
+    justify-content: left;
+    margin-top: -15rem;
+    margin-left: 67rem;
+}
+.btn-status button {
+    width: 123px;
+    height: 39px;
+    border-radius: 3px;
+    background-color: #FFFFD8;
+    border: 1px solid #C44421;
+    color: #C44421;
+}
+.btn-status p {
+    width: 23px;
+    height: 24px;
+    padding-top: 0.5rem;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #696969;   
 }
